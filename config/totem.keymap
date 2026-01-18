@@ -39,10 +39,10 @@
 
         nav_num {
             bindings = <
-       &none  &kp F7  &kp F8  &kp F9  &kp F10    &kp AT_SIGN   &kp HASH        &kp DOLLAR      &kp PERCENT      &kp AMPERSAND
-       &none  &kp F4  &kp F5  &kp F6  &kp F11    &mt HOME END  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none
-&none  &none  &kp F1  &kp F2  &kp F3  &kp F12    &none         &none           &kp DOWN_ARROW  &none            &none          &none
-                      &trans  &trans  &trans     &none         &trans          &none
+       &mt RBKT LEFT_BRACKET       &kp F7  &kp F8  &kp F9  &kp F10    &kp AT_SIGN            &kp HASH                    &kp DOLLAR      &kp PERCENT      &kp AMPERSAND
+       &mt GREATER_THAN LESS_THAN  &kp F4  &kp F5  &kp F6  &kp F11    &mt HOME END           &kp LEFT_ARROW              &kp UP_ARROW    &kp RIGHT_ARROW  &none
+&none  &mt RIGHT_BRACE LEFT_BRACE  &kp F1  &kp F2  &kp F3  &kp F12    &mt PAGE_DOWN PAGE_UP  &mt GREATER_THAN LESS_THAN  &kp DOWN_ARROW  &none            &none          &none
+                                           &trans  &trans  &trans     &none                  &trans                      &none
             >;
         };
 
