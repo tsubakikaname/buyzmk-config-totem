@@ -48,7 +48,7 @@
 
         sym_func {
             bindings = <
-       &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt SLASH STAR    &kp C_VOLUME_UP    &mkp LCLK       &mkp RCLK       &none            &msc SCRL_UP
+       &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt SLASH STAR    &kp C_VOLUME_UP    &mkp LCLK       &mkp RCLK       &mkp MB3         &msc SCRL_UP
        &kp EQUAL                               &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt MINUS PLUS    &kp C_VOLUME_DOWN  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &msc SCRL_DOWN
 &none  &kp DOT                                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0      &mt C_PP K_MUTE    &none           &mmv MOVE_DOWN  &msc SCRL_LEFT   &msc SCRL_RIGHT  &kp PRINTSCREEN
                                                              &trans        &trans        &trans            &trans             &trans          &kp DELETE
